@@ -98,6 +98,25 @@ Run the demo:
 python examples/demo.py
 ```
 
+## Contradiction Relationships
+
+Beliefs can also contradict other beliefs.
+
+Example relationships:
+
+interest_rates_increase → mortgage_affordability_declines (support)
+
+interest_rates_increase → housing_demand_strong (contradict)
+
+Support edges increase confidence in the target belief.  
+Contradiction edges decrease confidence in the target belief.
+
+Run the demo:
+
+```bash
+python examples/demo.py
+```
+
 ---
 
 ## Roadmap
