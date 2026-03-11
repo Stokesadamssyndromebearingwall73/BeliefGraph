@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "required": ["belief", "confidence"],
+  "properties": {
+    "belief": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "number"
+    },
+    "evidence_sources": {
+      "type": "array"
+    },
+    "timestamp": {
+      "type": "string"
+    }
+  }
+}
