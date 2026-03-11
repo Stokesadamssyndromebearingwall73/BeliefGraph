@@ -80,6 +80,24 @@ The script demonstrates:
 - adding evidence
 - updating confidence using a Bayesian rule
 
+## Belief Propagation
+
+Beliefs in the graph can influence other beliefs through weighted relationships.
+
+Example:
+
+interest_rates_increase → mortgage_affordability_declines
+
+When confidence in the first belief increases, the second belief updates automatically.
+
+This is implemented through the propagation engine.
+
+Run the demo:
+
+```bash
+python examples/demo.py
+```
+
 ---
 
 ## Roadmap
